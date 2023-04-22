@@ -11,9 +11,9 @@ const SocialLinks = () => {
        
        <div className='ml-5 flex items-center gap-5 md:ml-20'>
      <a href="/">  <img src={Facebook} alt="" />  </a> 
-       <img src={LinkedIn} alt="" />
-       <img src={Twitter} alt="" />
-       <img src={Instgram} alt="" />
+     <a href='/'>  <img src={LinkedIn} alt="" /> </a> 
+     <a href='/'> <img src={Twitter} alt="" />  </a>
+       <a href='/'>  <img src={Instgram} alt="" /> </a>
        </div>
     
      <div className='mr-5 flex md:mr-20  items-center'>
