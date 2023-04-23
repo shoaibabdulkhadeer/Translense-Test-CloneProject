@@ -11,7 +11,7 @@ const Programs = () => {
   return (
     <div className=''>
 
-<p className='text-center text-5xl font-bold'>Our Continued Project <br></br> Assistance Programs</p>
+<p className='text-3xl text-center md:text-5xl font-bold'>Our Continued Project <br></br> Assistance Programs</p>
 
    <div className='flex flex-wrap justify-center items-center p-10 gap-10 mt-5' > 
        <div className='w-96 mx-10 '>

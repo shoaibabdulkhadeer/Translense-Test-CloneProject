@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='flex w-full justify-between bg-green-800 text-white p-28'>
+    <div className='flex flex-col md:flex-row w-full items-center md:items-start justify-between bg-green-800 text-white p-28'>
        <div>
         <h1>ENVIRONMENTAL</h1>
        </div>
@@ -10,7 +10,7 @@ const Footer = () => {
 
    <div>
      <div>
-        <ul className='flex gap-16'>
+        <ul className='flex gap-16 mt-5 md:mt-0'>
             <li>Our Cause</li>
             <li>Contact Us</li>
             <li>Cases</li>
@@ -29,7 +29,7 @@ const Footer = () => {
 
 
 
-   <div className='w-[400px]'>
+   <div className='w-[400px] mt-5 md:mt-0'>
      <p >
      4517 Washington Ave. Manchester,
 Kentucky 39495

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cards = () => {
   return (
-    <div  className='flex justify-center items-center p-28 gap-10'>
+    <div  className=' flex flex-col md:flex-row justify-center items-center p-28 gap-10'>
 
     <div className='w-[323px] bg-pink-50 p-5'>
         <img src='/images/dots.png' alt=''/>

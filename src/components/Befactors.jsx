@@ -36,15 +36,15 @@ const Befactors = () => {
  
 
 
-    <div className='flex flex-col justify-center items-center p-56'>
+    <div className='flex flex-col justify-center items-center '>
          <h1 className='text-4xl font-bold mb-20'>Our Benfactors</h1>
 
-         <div className='flex flex-wrap ml-28'>
+         <div className='flex flex-wrap items-center justify-center'>
             {data.map((x) => {
                 return (
-                    <div className='mx-7 mb-5'>
+                    <div className='mx-20 my-4'>
                      <img src={x.image} alt=''/>
-                     <h1>{x.title}</h1>
+                     <h1 className='my-4'>{x.title}</h1>
                      <p>Volunteer</p>
                  </div>
                 )
